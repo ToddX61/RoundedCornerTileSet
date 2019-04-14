@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE0E534322635A6F00D3FEDA /* RoundedCornerTilesSVG in Resources */ = {isa = PBXBuildFile; fileRef = DE0E534222635A6F00D3FEDA /* RoundedCornerTilesSVG */; };
 		DE11352E2263496300C5C117 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE11352D2263496300C5C117 /* AppDelegate.swift */; };
 		DE1135302263496300C5C117 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE11352F2263496300C5C117 /* GameScene.sks */; };
 		DE1135342263496300C5C117 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1135332263496300C5C117 /* GameScene.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE0E534222635A6F00D3FEDA /* RoundedCornerTilesSVG */ = {isa = PBXFileReference; lastKnownFileType = folder; path = RoundedCornerTilesSVG; sourceTree = "<group>"; };
 		DE11352B2263496200C5C117 /* Example-macOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-macOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE11352D2263496300C5C117 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DE11352F2263496300C5C117 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */,
+				DE0E534222635A6F00D3FEDA /* RoundedCornerTilesSVG */,
 			);
 			path = "Example-shared";
 			sourceTree = "<group>";
@@ -291,6 +294,7 @@
 				DE1135382263496400C5C117 /* Assets.xcassets in Resources */,
 				DE11354A22634A7800C5C117 /* RoundedCornerTile.atlas in Resources */,
 				DE11353B2263496400C5C117 /* Main.storyboard in Resources */,
+				DE0E534322635A6F00D3FEDA /* RoundedCornerTilesSVG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
