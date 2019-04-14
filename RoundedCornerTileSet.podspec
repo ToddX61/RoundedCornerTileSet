@@ -6,7 +6,7 @@ s.homepage    = "https://github.com/ToddX61/RoundedCornerTileSet"
 s.license     = { :type => "MIT" }
 s.authors     = { "Todd Denlinger" => "todd at denlinger dot biz" }
 s.requires_arc = true
-s.swift_version = "5.0"
+s.swift_version = "4.0"
 s.osx.deployment_target = "10.12"
 s.ios.deployment_target = "10.0"
 s.source   = { :git => "https://github.com/ToddX61/RoundedCornerTileSet.git", :tag => s.version }
