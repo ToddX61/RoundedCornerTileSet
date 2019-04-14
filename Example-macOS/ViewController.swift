@@ -32,15 +32,15 @@ class ViewController: NSViewController {
     }
 
     let tiles = [
-        [0, 0, 1, 1, 4, 1, 1, 0, 0],
+        [0, 0, 1, 1, 1, 1, 1, 0, 0],
         [0, 1, 1, 1, 1, 1, 1, 1, 0],
         [1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1],
         [1, 1, 1, 1, 0, 1, 1, 1, 1],
         [1, 1, 1, 1, 1, 1, 1, 1, 1],
-        [1, 1, 1, 1, 4, 1, 0, 1, 1],
-        [0, 1, 1, 4, 1, 1, 1, 1, 0],
-        [0, 0, 1, 1, 4, 1, 1, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1],
+        [0, 1, 1, 1, 1, 1, 1, 1, 0],
+        [0, 0, 1, 1, 1, 1, 1, 0, 0],
     ]
 
     let strange = [
@@ -64,29 +64,21 @@ class ViewController: NSViewController {
         default:
             createMap(scene: skScene, tiles: strange)
         }
-        
+
         popUpButton.selectItem(at: idx)
     }
+
     @IBAction func popUpButton(_ sender: NSPopUpButton) {
-       displaySample(sender.selectedItem!)
+        displaySample(sender.selectedItem!)
     }
 
     func createMap(scene: SKScene, tiles: [[Int]]) {
-        var grid = Array2D<Any>(columns: 9, rows: 9)
-
-        for (row, rowArray) in tiles.enumerated() {
-            let cellRow = 9 - row - 1
-            for (column, value) in rowArray.enumerated() {
-                grid[column, cellRow] = (value == 0 ? nil : 1)
-            }
-        }
-
         let tileSet: SKTileSet
+        let grid = Array2D<Any>(columns: 9, rows: 9)
 
         do {
             tileSet = try RoundedCornerTileSet.create(textures: tileCache)
-        }
-        catch {
+        } catch {
             print(error)
             return
         }
