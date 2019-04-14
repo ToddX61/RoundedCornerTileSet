@@ -8,18 +8,18 @@
 
 import Foundation
 
-struct Array2D<T>{
-    let columns: Int
-    let rows: Int
+public struct Array2D<T>{
+    public let columns: Int
+    public let rows: Int
     fileprivate var array: Array<T?>
   
-    init(columns: Int, rows: Int) {
+    public init(columns: Int, rows: Int) {
         self.columns = columns
         self.rows = rows
         array = Array<T?>(repeating: nil, count: rows * columns)
     }
     
-    subscript(column: Int, row: Int) -> T? {
+    public subscript(column: Int, row: Int) -> T? {
         get { return array[row * columns + column] }
         set { array[row * columns + column] = newValue }
     }
@@ -27,11 +27,11 @@ struct Array2D<T>{
 
 // MARK: - CustomStringConvertible
 extension Array2D: CustomStringConvertible {
-    var description: String { return "columns: /(columns) rows: /(rows)" }
+    public var description: String { return "columns: /(columns) rows: /(rows)" }
 }
 
 // MARK: - Convienence methods
-extension Array2D {
+public extension Array2D {
     func walk(_ callback: @escaping (_ object: T?, _ stop: inout Bool) -> Void) {
         var stop = false
         for col in 0 ..< columns {

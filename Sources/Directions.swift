@@ -2,9 +2,9 @@
 import Foundation
 
 // see: https://nshipster.com/optionset/
-protocol Option: RawRepresentable, Hashable, CaseIterable {}
+public protocol Option: RawRepresentable, Hashable, CaseIterable {}
 
-extension Set where Element: Option {
+public extension Set where Element: Option {
     var rawValue: Int {
         var rawValue = 0
         for (index, element) in Element.allCases.enumerated() {
@@ -17,30 +17,30 @@ extension Set where Element: Option {
     }
 }
 
-enum Direction: String, Option {
+public enum Direction: String, Option {
     case northWest, north, northEast, west, east, southWest, south, southEast
 }
 
-extension Set where Element == Direction {
+public extension Set where Element == Direction {
     static var all: Set<Direction> {
         return Set(Element.allCases)
     }
 }
 
-typealias Directions = Set<Direction>
+public typealias Directions = Set<Direction>
 
-enum Corners: Int, CustomStringConvertible, CaseIterable {
+public enum Corners: Int, CustomStringConvertible, CaseIterable {
     case northWest = 0, northEast, southWest, southEast
-    var description: String { return "\(rawValue)" }
+    public var description: String { return "\(rawValue)" }
 }
 
-struct FourCorners: CustomStringConvertible {
-    static let MaxDecimal = 15
+public struct FourCorners: CustomStringConvertible {
+    public static let MaxDecimal = 15
     private var _corners: [Int]
 
-    init() { _corners = Array<Int>(repeating: 0, count: 4) }
+    public init() { _corners = Array<Int>(repeating: 0, count: 4) }
 
-    init?(decimal: Int) {
+    public init?(decimal: Int) {
         if decimal >= 0, decimal <= FourCorners.MaxDecimal {
             let str = String(decimal, radix: 2).pad(with: "0", toLength: 4)
 
@@ -53,7 +53,7 @@ struct FourCorners: CustomStringConvertible {
         return nil
     }
 
-    init(directions: Directions) {
+    public init(directions: Directions) {
         self.init()
 
         if directions.contains(.northWest) {
@@ -73,7 +73,7 @@ struct FourCorners: CustomStringConvertible {
         }
     }
 
-    subscript(corner: Corners) -> Bool {
+    public subscript(corner: Corners) -> Bool {
         get {
             for (idx, aCorner) in Corners.allCases.enumerated() {
                 if corner == aCorner {
@@ -93,10 +93,10 @@ struct FourCorners: CustomStringConvertible {
     }
 
     // returns an integer representation of a binary number >= 0 && <= 15
-    var value: Int { return Int(description, radix: 2)! }
+    public var value: Int { return Int(description, radix: 2)! }
 
     // returns a string representation of a binary number >= 0 && <= 15
-    var description: String {
+    public var description: String {
         var result = ""
 
         for integer in _corners {
