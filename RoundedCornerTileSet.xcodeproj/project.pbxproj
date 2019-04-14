@@ -20,7 +20,6 @@
 		DE113544226349B900C5C117 /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
 		DE113545226349B900C5C117 /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
 		DE11354A22634A7800C5C117 /* RoundedCornerTile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */; };
-		DE11354C2263507400C5C117 /* .swift-version in Resources */ = {isa = PBXBuildFile; fileRef = DE11354B2263507400C5C117 /* .swift-version */; };
 		DEBD17102261F71C003F7273 /* RoundedCornerTileSet_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEBD17142261F729003F7273 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
 		DEBD17152261F729003F7273 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
@@ -47,7 +46,6 @@
 		DE11353C2263496400C5C117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE11353D2263496400C5C117 /* Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_macOS.entitlements; sourceTree = "<group>"; };
 		DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RoundedCornerTile.atlas; sourceTree = "<group>"; };
-		DE11354B2263507400C5C117 /* .swift-version */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".swift-version"; sourceTree = "<group>"; };
 		DEBD170C2261F71C003F7273 /* RoundedCornerTileSet_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundedCornerTileSet_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerTileSet_macOS.h; sourceTree = "<group>"; };
 		DEBD170F2261F71C003F7273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,7 +124,6 @@
 			isa = PBXGroup;
 			children = (
 				DEBD171B2261FD1E003F7273 /* .gitignore */,
-				DE11354B2263507400C5C117 /* .swift-version */,
 				DEBD17192261FD1E003F7273 /* LICENSE */,
 				DEBD171A2261FD1E003F7273 /* README.md */,
 				DE11352C2263496200C5C117 /* Example-macOS */,
@@ -309,7 +306,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE11354C2263507400C5C117 /* .swift-version in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
