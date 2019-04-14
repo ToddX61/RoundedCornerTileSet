@@ -1,12 +1,12 @@
 
 import SpriteKit
 
-enum GridTileSetError: Error {
+public enum GridTileSetError: Error {
     case runtimeError(String)
 }
 
-extension String {
-    public func pad(with padding: Character, toLength length: Int) -> String {
+public extension String {
+    func pad(with padding: Character, toLength length: Int) -> String {
         let paddingWidth = length - count
         guard 0 < paddingWidth else { return self }
 
@@ -14,8 +14,8 @@ extension String {
     }
 }
 
-class Force {
-    class func toBool(_ value: Any?, defaultValue: Bool = false) -> Bool {
+public class Force {
+    public class func toBool(_ value: Any?, defaultValue: Bool = false) -> Bool {
         if let obj = value as? Bool {
             return obj
         }
@@ -28,7 +28,7 @@ class Force {
     }
 }
 
-class RoundedCornerTileSet {
+public class RoundedCornerTileSet {
 // As of macos 10.14 and IOS 11, I couln't make SpriteKit's tile groups correctly handle complex custom groups. See:
 // https://stackoverflow.com/questions/52198373/custom-group-in-tilemap-set-does-not-select-the-proper-tile
 // https://gamedevelopment.tutsplus.com/tutorials/how-to-use-tile-bitmasking-to-auto-tile-your-level-layouts--cms-25673
@@ -37,12 +37,12 @@ class RoundedCornerTileSet {
 
     // number of images in a grid tile set / 2
     // that is: (rounded corner tile count + inset corner tile count) / 2
-    static let TextureCount = 16
-    static let DefaultTileSetName = "RoundedCornerTileSet"
+    public static let TextureCount = 16
+    public static let DefaultTileSetName = "RoundedCornerTileSet"
 
     // MARK: - Public Class Functions
 
-    class func create(textures: TextureCache,
+    public class func create(textures: TextureCache,
                       tileSetName: String = RoundedCornerTileSet.DefaultTileSetName,
                       roundedImagePrefix: String = "rounded_",
                       insetImagePrefix: String = "inset_") throws -> SKTileSet {
