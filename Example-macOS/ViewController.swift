@@ -73,16 +73,25 @@ class ViewController: NSViewController {
     }
 
     func createMap(scene: SKScene, tiles: [[Int]]) {
+        var grid = Array2D<Any>(columns: 9, rows: 9)
+        
+        for (row, rowArray) in tiles.enumerated() {
+            let cellRow = 9 - row - 1
+            for (column, value) in rowArray.enumerated() {
+                grid[column, cellRow] = (value == 0 ? nil : 1)
+            }
+        }
+        
         let tileSet: SKTileSet
-        let grid = Array2D<Any>(columns: 9, rows: 9)
-
+        
         do {
             tileSet = try RoundedCornerTileSet.create(textures: tileCache)
-        } catch {
+        }
+        catch {
             print(error)
             return
         }
-
+        
         scene.removeAllChildren()
         if let map = RoundedCornerTileMapNode.create(tileSet: tileSet, grid: grid) {
             scene.addChild(map)
