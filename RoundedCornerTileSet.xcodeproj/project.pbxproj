@@ -46,6 +46,7 @@
 		DE11353C2263496400C5C117 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DE11353D2263496400C5C117 /* Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_macOS.entitlements; sourceTree = "<group>"; };
 		DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RoundedCornerTile.atlas; sourceTree = "<group>"; };
+		DE558DE02264ECE300F7B43E /* RoundedCornerTileSet.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RoundedCornerTileSet.podspec; sourceTree = "<group>"; };
 		DEBD170C2261F71C003F7273 /* RoundedCornerTileSet_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundedCornerTileSet_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerTileSet_macOS.h; sourceTree = "<group>"; };
 		DEBD170F2261F71C003F7273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 				DEBD171B2261FD1E003F7273 /* .gitignore */,
 				DEBD17192261FD1E003F7273 /* LICENSE */,
 				DEBD171A2261FD1E003F7273 /* README.md */,
+				DE558DE02264ECE300F7B43E /* RoundedCornerTileSet.podspec */,
 				DE11352C2263496200C5C117 /* Example-macOS */,
 				DE113546226349D700C5C117 /* Example-shared */,
 				DEED9D002261E6A7000548B0 /* RoundedCornerTileSet-iOS */,
