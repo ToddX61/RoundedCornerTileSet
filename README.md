@@ -13,6 +13,11 @@ I tried to make this work using Interface Builder in XCode. And tried... and tri
 
 Plus, I found it very cumbersome to add tile sets using InterfaceBuilder. So I decided to create mine programmatically.
 
+## Requirements
+
+* macOS 10.12 or later
+* iOS 11 or later
+
 ## Installation
 
 ### CocoaPods
