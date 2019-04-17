@@ -41,16 +41,14 @@ public struct FourCorners: CustomStringConvertible {
     public init() { _corners = Array<Int>(repeating: 0, count: 4) }
 
     public init?(decimal: Int) {
-        if decimal >= 0, decimal <= FourCorners.MaxDecimal {
-            let str = String(decimal, radix: 2).pad(with: "0", toLength: 4)
+        guard decimal >= 0, decimal <= FourCorners.MaxDecimal else { return nil }
 
-            _corners = [Int]()
-            for c in str {
-                _corners.append(c == "1" ? 1 : 0)
-            }
+        let str = String(decimal, radix: 2).pad(with: "0", toLength: 4)
+        _corners = [Int]()
+
+        for c in str {
+            _corners.append(c == "1" ? 1 : 0)
         }
-
-        return nil
     }
 
     public init(directions: Directions) {
