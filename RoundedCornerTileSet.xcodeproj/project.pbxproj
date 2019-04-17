@@ -20,6 +20,14 @@
 		DE113544226349B900C5C117 /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
 		DE113545226349B900C5C117 /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
 		DE11354A22634A7800C5C117 /* RoundedCornerTile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */; };
+		DE781CB92267B0010091D29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CB82267B0010091D29B /* AppDelegate.swift */; };
+		DE781CBB2267B0010091D29B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE781CBA2267B0010091D29B /* GameScene.sks */; };
+		DE781CBD2267B0010091D29B /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE781CBC2267B0010091D29B /* Actions.sks */; };
+		DE781CBF2267B0010091D29B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CBE2267B0010091D29B /* GameScene.swift */; };
+		DE781CC12267B0010091D29B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CC02267B0010091D29B /* GameViewController.swift */; };
+		DE781CC42267B0010091D29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE781CC22267B0010091D29B /* Main.storyboard */; };
+		DE781CC62267B0020091D29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE781CC52267B0020091D29B /* Assets.xcassets */; };
+		DE781CC92267B0020091D29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE781CC72267B0020091D29B /* LaunchScreen.storyboard */; };
 		DEBD17102261F71C003F7273 /* RoundedCornerTileSet_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DEBD17142261F729003F7273 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
 		DEBD17152261F729003F7273 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
@@ -47,6 +55,16 @@
 		DE11353D2263496400C5C117 /* Example_macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Example_macOS.entitlements; sourceTree = "<group>"; };
 		DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = RoundedCornerTile.atlas; sourceTree = "<group>"; };
 		DE558DE02264ECE300F7B43E /* RoundedCornerTileSet.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = RoundedCornerTileSet.podspec; sourceTree = "<group>"; };
+		DE781CB62267B0010091D29B /* Example-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Example-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE781CB82267B0010091D29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE781CBA2267B0010091D29B /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		DE781CBC2267B0010091D29B /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		DE781CBE2267B0010091D29B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DE781CC02267B0010091D29B /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE781CC32267B0010091D29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE781CC52267B0020091D29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE781CC82267B0020091D29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE781CCA2267B0020091D29B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEBD170C2261F71C003F7273 /* RoundedCornerTileSet_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundedCornerTileSet_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerTileSet_macOS.h; sourceTree = "<group>"; };
 		DEBD170F2261F71C003F7273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -65,6 +83,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		DE1135282263496200C5C117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781CB32267B0010091D29B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -112,6 +137,22 @@
 			path = "Example-shared";
 			sourceTree = "<group>";
 		};
+		DE781CB72267B0010091D29B /* Example-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				DE781CB82267B0010091D29B /* AppDelegate.swift */,
+				DE781CBA2267B0010091D29B /* GameScene.sks */,
+				DE781CBC2267B0010091D29B /* Actions.sks */,
+				DE781CBE2267B0010091D29B /* GameScene.swift */,
+				DE781CC02267B0010091D29B /* GameViewController.swift */,
+				DE781CC22267B0010091D29B /* Main.storyboard */,
+				DE781CC52267B0020091D29B /* Assets.xcassets */,
+				DE781CC72267B0020091D29B /* LaunchScreen.storyboard */,
+				DE781CCA2267B0020091D29B /* Info.plist */,
+			);
+			path = "Example-iOS";
+			sourceTree = "<group>";
+		};
 		DEBD170D2261F71C003F7273 /* RoundedCornerTileSet-macOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +174,7 @@
 				DEED9D002261E6A7000548B0 /* RoundedCornerTileSet-iOS */,
 				DEBD170D2261F71C003F7273 /* RoundedCornerTileSet-macOS */,
 				DEED9D082261EDB3000548B0 /* Sources */,
+				DE781CB72267B0010091D29B /* Example-iOS */,
 				DEED9CF02261E565000548B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,6 +185,7 @@
 				DEED9CFF2261E6A7000548B0 /* RoundedCornerTileSet_iOS.framework */,
 				DEBD170C2261F71C003F7273 /* RoundedCornerTileSet_macOS.framework */,
 				DE11352B2263496200C5C117 /* Example-macOS.app */,
+				DE781CB62267B0010091D29B /* Example-iOS.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -207,6 +250,23 @@
 			productReference = DE11352B2263496200C5C117 /* Example-macOS.app */;
 			productType = "com.apple.product-type.application";
 		};
+		DE781CB52267B0010091D29B /* Example-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE781CCD2267B0020091D29B /* Build configuration list for PBXNativeTarget "Example-iOS" */;
+			buildPhases = (
+				DE781CB22267B0010091D29B /* Sources */,
+				DE781CB32267B0010091D29B /* Frameworks */,
+				DE781CB42267B0010091D29B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Example-iOS";
+			productName = "Example-iOS";
+			productReference = DE781CB62267B0010091D29B /* Example-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
 		DEBD170B2261F71C003F7273 /* RoundedCornerTileSet-macOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = DEBD17132261F71C003F7273 /* Build configuration list for PBXNativeTarget "RoundedCornerTileSet-macOS" */;
@@ -256,6 +316,9 @@
 					DE11352A2263496200C5C117 = {
 						CreatedOnToolsVersion = 10.2;
 					};
+					DE781CB52267B0010091D29B = {
+						CreatedOnToolsVersion = 10.2;
+					};
 					DEBD170B2261F71C003F7273 = {
 						CreatedOnToolsVersion = 10.2;
 					};
@@ -280,6 +343,7 @@
 				DEED9CFE2261E6A7000548B0 /* RoundedCornerTileSet-iOS */,
 				DEBD170B2261F71C003F7273 /* RoundedCornerTileSet-macOS */,
 				DE11352A2263496200C5C117 /* Example-macOS */,
+				DE781CB52267B0010091D29B /* Example-iOS */,
 			);
 		};
 /* End PBXProject section */
@@ -294,6 +358,18 @@
 				DE11354A22634A7800C5C117 /* RoundedCornerTile.atlas in Resources */,
 				DE11353B2263496400C5C117 /* Main.storyboard in Resources */,
 				DE0E534322635A6F00D3FEDA /* RoundedCornerTilesSVG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781CB42267B0010091D29B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE781CC42267B0010091D29B /* Main.storyboard in Resources */,
+				DE781CBB2267B0010091D29B /* GameScene.sks in Resources */,
+				DE781CC62267B0020091D29B /* Assets.xcassets in Resources */,
+				DE781CC92267B0020091D29B /* LaunchScreen.storyboard in Resources */,
+				DE781CBD2267B0010091D29B /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +402,16 @@
 				DE113542226349B900C5C117 /* Directions.swift in Sources */,
 				DE113544226349B900C5C117 /* RoundedCornerTileSet.swift in Sources */,
 				DE113543226349B900C5C117 /* RoundedCornerTileMapNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE781CB22267B0010091D29B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE781CBF2267B0010091D29B /* GameScene.swift in Sources */,
+				DE781CC12267B0010091D29B /* GameViewController.swift in Sources */,
+				DE781CB92267B0010091D29B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +448,22 @@
 				DE11353A2263496400C5C117 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE781CC22267B0010091D29B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE781CC32267B0010091D29B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE781CC72267B0020091D29B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE781CC82267B0020091D29B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -404,6 +506,49 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Denlinger.Example-macOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		DE781CCB2267B0020091D29B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S229Q43BWG;
+				INFOPLIST_FILE = "Example-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Denlinger.Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DE781CCC2267B0020091D29B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S229Q43BWG;
+				INFOPLIST_FILE = "Example-iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Denlinger.Example-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -645,6 +790,15 @@
 			buildConfigurations = (
 				DE11353F2263496400C5C117 /* Debug */,
 				DE1135402263496400C5C117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE781CCD2267B0020091D29B /* Build configuration list for PBXNativeTarget "Example-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE781CCB2267B0020091D29B /* Debug */,
+				DE781CCC2267B0020091D29B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
