@@ -7,7 +7,7 @@ class ViewController: NSViewController {
     @IBOutlet var popUpButton: NSPopUpButton!
     fileprivate var skScene: SKScene!
 
-    let tileCache = TextureCache(atlasNamed: "RoundedCornerTile.atlas")
+    let tileCache = RCTextureCache(atlasNamed: "RoundedCornerTile.atlas")
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -73,7 +73,7 @@ class ViewController: NSViewController {
     }
 
     func createMap(scene: SKScene, tiles: [[Int]]) {
-        var grid = Array2D<Any>(columns: 9, rows: 9)
+        var grid = RCArray2D<Any>(columns: 9, rows: 9)
         
         for (row, rowArray) in tiles.enumerated() {
             let cellRow = 9 - row - 1

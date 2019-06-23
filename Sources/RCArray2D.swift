@@ -8,7 +8,7 @@
 
 import Foundation
 
-public struct Array2D<T>{
+public struct RCArray2D<T> {
     public let columns: Int
     public let rows: Int
     fileprivate var array: Array<T?>
@@ -26,12 +26,12 @@ public struct Array2D<T>{
 }
 
 // MARK: - CustomStringConvertible
-extension Array2D: CustomStringConvertible {
+extension RCArray2D: CustomStringConvertible {
     public var description: String { return "columns: /(columns) rows: /(rows)" }
 }
 
 // MARK: - Convienence methods
-public extension Array2D {
+public extension RCArray2D {
     func walk(_ callback: @escaping (_ object: T?, _ stop: inout Bool) -> Void) {
         var stop = false
         for col in 0 ..< columns {

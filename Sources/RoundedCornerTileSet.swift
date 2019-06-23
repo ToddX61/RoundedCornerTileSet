@@ -42,7 +42,7 @@ public class RoundedCornerTileSet {
 
     // MARK: - Public Class Functions
 
-    public class func create(textures: TextureCache,
+    public class func create(textures: RCTextureCache,
                       tileSetName: String = RoundedCornerTileSet.DefaultTileSetName,
                       roundedImagePrefix: String = "rounded_",
                       insetImagePrefix: String = "inset_") throws -> SKTileSet {
@@ -74,7 +74,7 @@ public class RoundedCornerTileSet {
 
     // MARK: - Private Class Functions
 
-    fileprivate class func create(textures: TextureCache, imagePrefix: String, groups: inout [SKTileGroup]) throws {
+    fileprivate class func create(textures: RCTextureCache, imagePrefix: String, groups: inout [SKTileGroup]) throws {
         for idx in 0 ..< RoundedCornerTileSet.TextureCount {
             let str = String(idx, radix: 2).pad(with: "0", toLength: 4)
             let textureName = "\(imagePrefix)\(str)"

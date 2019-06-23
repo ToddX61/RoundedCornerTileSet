@@ -12,16 +12,16 @@ public class RoundedCornerTileMapNode: SKTileMapNode {
 
     // MARK: - Private Variables
 
-    fileprivate var _grid: Array2D<Any>!
+    fileprivate var _grid: RCArray2D<Any>!
 
     // MARK: - Public Variables
 
-    public var grid: Array2D<Any> { return _grid }
+    public var grid: RCArray2D<Any> { return _grid }
 
     // MARK: - Public Class Functions
 
     // grid is a 2 dimensional array that specifies which [col,row] should be filled with the tileGroups (nil values are not filled)
-    public class func create(tileSet: SKTileSet, grid: Array2D<Any>) -> RoundedCornerTileMapNode? {
+    public class func create(tileSet: SKTileSet, grid: RCArray2D<Any>) -> RoundedCornerTileMapNode? {
         guard tileSet.tileGroups.count >= RoundedCornerTileSet.TextureCount else { return nil }
 
         let tileMapNode = RoundedCornerTileMapNode(tileSet: tileSet, columns: grid.columns, rows: grid.rows, tileSize: tileSet.defaultTileSize)
@@ -30,7 +30,7 @@ public class RoundedCornerTileMapNode: SKTileMapNode {
         return tileMapNode
     }
 
-    public class func create(tileSet: SKTileSet, tileMapNode: RoundedCornerTileMapNode, grid: Array2D<Any>) {
+    public class func create(tileSet: SKTileSet, tileMapNode: RoundedCornerTileMapNode, grid: RCArray2D<Any>) {
         tileMapNode.enableAutomapping = false
         tileMapNode._grid = grid
         tileMapNode.tileSet = tileSet

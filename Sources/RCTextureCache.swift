@@ -1,7 +1,7 @@
 
 import SpriteKit
 
-public class TextureCache {
+public class RCTextureCache {
     fileprivate let _atlasNamed: String
     fileprivate var _textures = [String: SKTexture]()
     fileprivate var _atlas: SKTextureAtlas?

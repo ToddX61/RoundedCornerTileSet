@@ -14,11 +14,11 @@
 		DE1135362263496300C5C117 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1135352263496300C5C117 /* ViewController.swift */; };
 		DE1135382263496400C5C117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE1135372263496400C5C117 /* Assets.xcassets */; };
 		DE11353B2263496400C5C117 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE1135392263496400C5C117 /* Main.storyboard */; };
-		DE113541226349B900C5C117 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
+		DE113541226349B900C5C117 /* RCArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */; };
 		DE113542226349B900C5C117 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
 		DE113543226349B900C5C117 /* RoundedCornerTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */; };
 		DE113544226349B900C5C117 /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
-		DE113545226349B900C5C117 /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
+		DE113545226349B900C5C117 /* RCTextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */; };
 		DE11354A22634A7800C5C117 /* RoundedCornerTile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */; };
 		DE781CB92267B0010091D29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CB82267B0010091D29B /* AppDelegate.swift */; };
 		DE781CBB2267B0010091D29B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE781CBA2267B0010091D29B /* GameScene.sks */; };
@@ -28,26 +28,26 @@
 		DE781CC62267B0020091D29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE781CC52267B0020091D29B /* Assets.xcassets */; };
 		DE781CC92267B0020091D29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE781CC72267B0020091D29B /* LaunchScreen.storyboard */; };
 		DE781CCE2267B0A00091D29B /* RoundedCornerTile.atlas in Resources */ = {isa = PBXBuildFile; fileRef = DE11354722634A6D00C5C117 /* RoundedCornerTile.atlas */; };
-		DE781CCF2267B0B10091D29B /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
+		DE781CCF2267B0B10091D29B /* RCArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */; };
 		DE781CD02267B0B10091D29B /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
 		DE781CD12267B0B10091D29B /* RoundedCornerTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */; };
 		DE781CD22267B0B10091D29B /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
-		DE781CD32267B0B10091D29B /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
+		DE781CD32267B0B10091D29B /* RCTextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */; };
 		DE781CD42267B6720091D29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CB82267B0010091D29B /* AppDelegate.swift */; };
 		DE781CD52267B6720091D29B /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = DE781CBA2267B0010091D29B /* GameScene.sks */; };
 		DE781CD72267B6720091D29B /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE781CC02267B0010091D29B /* GameViewController.swift */; };
 		DEBD17102261F71C003F7273 /* RoundedCornerTileSet_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEBD170E2261F71C003F7273 /* RoundedCornerTileSet_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEBD17142261F729003F7273 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
+		DEBD17142261F729003F7273 /* RCArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */; };
 		DEBD17152261F729003F7273 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
 		DEBD17162261F729003F7273 /* RoundedCornerTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */; };
 		DEBD17172261F729003F7273 /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
-		DEBD17182261F729003F7273 /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
+		DEBD17182261F729003F7273 /* RCTextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */; };
 		DEED9D032261E6A7000548B0 /* RoundedCornerTileSet_iOS.h in Headers */ = {isa = PBXBuildFile; fileRef = DEED9D012261E6A7000548B0 /* RoundedCornerTileSet_iOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DEED9D162261F062000548B0 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* Array2D.swift */; };
+		DEED9D162261F062000548B0 /* RCArray2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */; };
 		DEED9D172261F062000548B0 /* Directions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0F2261EFEF000548B0 /* Directions.swift */; };
 		DEED9D182261F062000548B0 /* RoundedCornerTileMapNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */; };
 		DEED9D192261F062000548B0 /* RoundedCornerTileSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */; };
-		DEED9D1A2261F062000548B0 /* TextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* TextureCache.swift */; };
+		DEED9D1A2261F062000548B0 /* RCTextureCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,10 +81,10 @@
 		DEED9CFF2261E6A7000548B0 /* RoundedCornerTileSet_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RoundedCornerTileSet_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEED9D012261E6A7000548B0 /* RoundedCornerTileSet_iOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RoundedCornerTileSet_iOS.h; sourceTree = "<group>"; };
 		DEED9D022261E6A7000548B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEED9D0B2261EFEF000548B0 /* TextureCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextureCache.swift; sourceTree = "<group>"; };
+		DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCTextureCache.swift; sourceTree = "<group>"; };
 		DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerTileMapNode.swift; sourceTree = "<group>"; };
 		DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerTileSet.swift; sourceTree = "<group>"; };
-		DEED9D0E2261EFEF000548B0 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RCArray2D.swift; sourceTree = "<group>"; };
 		DEED9D0F2261EFEF000548B0 /* Directions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Directions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -208,11 +208,11 @@
 		DEED9D082261EDB3000548B0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				DEED9D0E2261EFEF000548B0 /* Array2D.swift */,
+				DEED9D0E2261EFEF000548B0 /* RCArray2D.swift */,
 				DEED9D0F2261EFEF000548B0 /* Directions.swift */,
 				DEED9D0C2261EFEF000548B0 /* RoundedCornerTileMapNode.swift */,
 				DEED9D0D2261EFEF000548B0 /* RoundedCornerTileSet.swift */,
-				DEED9D0B2261EFEF000548B0 /* TextureCache.swift */,
+				DEED9D0B2261EFEF000548B0 /* RCTextureCache.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -402,8 +402,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE1135362263496300C5C117 /* ViewController.swift in Sources */,
-				DE113541226349B900C5C117 /* Array2D.swift in Sources */,
-				DE113545226349B900C5C117 /* TextureCache.swift in Sources */,
+				DE113541226349B900C5C117 /* RCArray2D.swift in Sources */,
+				DE113545226349B900C5C117 /* RCTextureCache.swift in Sources */,
 				DE1135342263496300C5C117 /* GameScene.swift in Sources */,
 				DE11352E2263496300C5C117 /* AppDelegate.swift in Sources */,
 				DE113542226349B900C5C117 /* Directions.swift in Sources */,
@@ -417,8 +417,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE781CBF2267B0010091D29B /* GameScene.swift in Sources */,
-				DE781CCF2267B0B10091D29B /* Array2D.swift in Sources */,
-				DE781CD32267B0B10091D29B /* TextureCache.swift in Sources */,
+				DE781CCF2267B0B10091D29B /* RCArray2D.swift in Sources */,
+				DE781CD32267B0B10091D29B /* RCTextureCache.swift in Sources */,
 				DE781CC12267B0010091D29B /* GameViewController.swift in Sources */,
 				DE781CB92267B0010091D29B /* AppDelegate.swift in Sources */,
 				DE781CD02267B0B10091D29B /* Directions.swift in Sources */,
@@ -431,8 +431,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEBD17182261F729003F7273 /* TextureCache.swift in Sources */,
-				DEBD17142261F729003F7273 /* Array2D.swift in Sources */,
+				DEBD17182261F729003F7273 /* RCTextureCache.swift in Sources */,
+				DEBD17142261F729003F7273 /* RCArray2D.swift in Sources */,
 				DEBD17172261F729003F7273 /* RoundedCornerTileSet.swift in Sources */,
 				DEBD17152261F729003F7273 /* Directions.swift in Sources */,
 				DEBD17162261F729003F7273 /* RoundedCornerTileMapNode.swift in Sources */,
@@ -444,8 +444,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE781CD42267B6720091D29B /* AppDelegate.swift in Sources */,
-				DEED9D1A2261F062000548B0 /* TextureCache.swift in Sources */,
-				DEED9D162261F062000548B0 /* Array2D.swift in Sources */,
+				DEED9D1A2261F062000548B0 /* RCTextureCache.swift in Sources */,
+				DEED9D162261F062000548B0 /* RCArray2D.swift in Sources */,
 				DEED9D192261F062000548B0 /* RoundedCornerTileSet.swift in Sources */,
 				DE781CD72267B6720091D29B /* GameViewController.swift in Sources */,
 				DEED9D172261F062000548B0 /* Directions.swift in Sources */,

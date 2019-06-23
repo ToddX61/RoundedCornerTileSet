@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name        = "RoundedCornerTileSet"
-s.version     = "1.1.1"
+s.version     = "1.1.2"
 s.summary     = "Create and display rounded corner tile sets with Sprint and SpriteKit"
 s.homepage    = "https://github.com/ToddX61/RoundedCornerTileSet"
 s.license     = { :type => "MIT" }
